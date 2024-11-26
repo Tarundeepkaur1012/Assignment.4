@@ -1,0 +1,95 @@
+<!--
+	Name: Tarundeep Kaur
+	File: index(7).html
+	Date:  9 NOVEMBER 2024
+	
+	-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Story Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 320px;
+            text-align: left;
+        }
+        .custom-name {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .custom-name label {
+            font-size: 14px;
+            margin-right: 5px;
+        }
+        .custom-name input[type="text"] {
+            font-size: 14px;
+            padding: 4px;
+            flex: 1;
+        }
+        .radio-buttons {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .radio-buttons label {
+            margin-right: 15px;
+        }
+        button {
+            font-size: 14px;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        .story-box {
+            background-color: #f5a623;
+            color: black;
+            font-size: 16px;
+            padding: 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            line-height: 1.5;
+            box-sizing: border-box;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="custom-name">
+            <label for="customName">Enter custom name:</label>
+            <input type="text" id="customName" name="customName">
+        </div>
+
+        <div class="radio-buttons">
+            <label><input type="radio" name="region" value="US" checked> US</label>
+            <label><input type="radio" name="region" value="UK"> UK</label>
+        </div>
+
+        <button onclick="generateStory()">Generate random story</button>
+
+        <div class="story-box">
+            It was 94 fahrenheit outside, so Willy the Goblin went for a walk. When they got to the soup kitchen, they stared in horror for a few moments, then turned into a slug and crawled away. Bob saw the whole thing, but was not surprised — Willy the Goblin weighs 300 pounds, and it was a hot day.
+        </div>
+    </div>
+
+    <script>
+        function generateStory() {
+            // Add story generation functionality if needed
+        }
+    </script>
+
+</body>
+</html>
+
